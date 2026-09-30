@@ -1,0 +1,19 @@
+[
+  {
+    "nombre": "AIRPORDS",
+    "imagen": "./imagenes/airpodspro01.jpg",  
+    "precio":"$250.000",
+    "descripcion": "vinculacion inmediata en ecocistema apple y cancelacion de ruido ademas icluye funciones inteligentes como el audio espacial y tiene modo ambiente y te permite escuchar alrededor sin quitartelos basta con abrir el estuche para se vincule automaticamentes"
+  },
+  {
+    "nombre": "earpords",
+    "imagen": "./imagenes/EARPODS-CONECTOR-TIPO-C.png",
+    "descripcion": "se destaca por confiabilidad absoluta sin preocupacion de bateria conexion instantanea y calidad de microfono superior para llamadasse destaca por ser comodo y duradero."
+  },
+  {
+    "nombre": "powerbeats",
+    "imagen": "./imagenes/images.jpg",
+    "precio":"$300.000",
+    "descripcion": "audifonos de alto rendimiento con un diseño ajustable para las horas a diferenias de los tactiles tenemos botones para evitar accidentes con tacto ofrecen un emparejamiento instantaneo con ecocistemas apple"
+  }
+]
