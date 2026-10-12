@@ -9,7 +9,7 @@
   import Footer from './section/footer/footer.svelte';
   import { onMount } from 'svelte';
 
-  const originalScripts: { attributes: string[][]; content: string }[] = [{"attributes":[["src","nova sound/navbar.js"]],"content":""},{"attributes":[["src","nova sound/detalle-producto.js"],["defer",""]],"content":""}];
+  const originalScripts: { attributes: string[][]; content: string }[] = [{"attributes":[["src","nova sound/detalle-producto.js"],["defer",""]],"content":""}];
   onMount(() => {
     const previousClass = document.body.className;
     const previousStyle = document.body.getAttribute('style');

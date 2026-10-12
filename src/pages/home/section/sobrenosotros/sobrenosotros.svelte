@@ -8,7 +8,7 @@
         <div class="sobre-nosotros-contendor">
           <div class="col-izq-sobre">
             <div class="contenedor-imagen">
-              <img class="imagen-estudio" src={assetUrl("nova sound/imagenes/sobre-nostros.png")} alt="">
+              <img class="imagen-estudio" src={assetUrl("nova sound/imagenes/sobre-nostros.png")} alt="Nova Sound: audífonos y equipos de audio">
             </div>
           </div>
           <div class="col-der-sobre">

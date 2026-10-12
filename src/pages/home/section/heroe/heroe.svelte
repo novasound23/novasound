@@ -15,7 +15,7 @@
             <p class="heroe-nota">Para tus playlists, tus llamadas y todo lo que mueve tu día.</p>
           </div>
           <figure class="heroe-imagen-contenedor">
-            <img class="heroe-imagen" src={assetUrl("nova sound/imagenes/hero-imagen.png")} alt="Interior de Nova Sound con audífonos y equipos de audio" width="2528" height="1686" fetchpriority="high" decoding="async">
+            <img class="heroe-imagen" src={assetUrl("nova sound/imagenes/hero-imagen.png")} alt="Interior de Nova Sound con audífonos y equipos de audio" fetchpriority="high" decoding="async">
           </figure>
         </div>
       </section>

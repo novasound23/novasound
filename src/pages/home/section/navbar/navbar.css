@@ -26,7 +26,7 @@ html {
 
 /* Estado cuando el usuario hace scroll hacia abajo pasando el Hero */
 .navbar.navbar-scrolled {
-  background: #0f172a !important;
+  background: var(--color-fondo) !important;
   background-image: none !important;
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
@@ -90,7 +90,7 @@ html {
   left: 0;
   width: 0%;
   height: 2px;
-  background-color: #d6a284;
+  background-color: var(--color-secundario);
   transition: width 0.3s ease;
 }
 
@@ -100,8 +100,8 @@ html {
 
 /* Enlace estilo botón de acción (opcional) */
 .nav-link-btn {
-  background-color: #d6a284;
-  color: #ffffff !important;
+  background-color: var(--color-secundario);
+  color: var(--color-negro) !important;
   padding: 0.45rem 1.15rem !important;
   border-radius: 9999px;
   font-weight: 600;
@@ -177,7 +177,7 @@ html {
     left: 0;
     width: 100%;
     height: calc(100vh - 70px);
-    background-color: #0f172a;
+    background-color: var(--color-fondo);
     backdrop-filter: blur(16px);
     -webkit-backdrop-filter: blur(16px);
     flex-direction: column;
@@ -251,4 +251,14 @@ align-items: center;
 .color-fondo-primario{
 background-color: var(--color-primario);
 color:white;
+}
+
+/* Mantener la barra compartida anclada al viewport en el catálogo. */
+body[data-svelte-page="catalogo"] #barra-navegacion.navbar {
+  position: fixed;
+  inset: 0 0 auto;
+  width: 100%;
+  height: 70px;
+  z-index: 1000;
+  transform: none;
 }

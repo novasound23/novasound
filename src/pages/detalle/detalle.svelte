@@ -53,7 +53,7 @@
 
 
   <!-- 1. Header / Navbar Original del Proyecto (index.html) -->
-<Navbar pageAttributes={{"id":"barra-navegacion","class":"navbar scrolled header-scrolled navbar-scrolled activo active"}} pageLinks={["index.html#heroe","index.html#heroe","index.html#sobre-nosotros","catalogo.html","index.html#contacto"]} />
+<Navbar scrolled={true} pageLinks={["index.html#heroe","index.html#heroe","index.html#sobre-nosotros","catalogo.html","index.html#contacto"]} />
 
   <!-- Miga de Pan (Breadcrumb) -->
   <nav class="detalle-miga-pan" aria-label="Navegación de migas de pan">

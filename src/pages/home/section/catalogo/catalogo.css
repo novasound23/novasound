@@ -47,7 +47,7 @@ section#catalogo .catalogo-header h2 {
   font-size: 2.25rem !important;
   font-weight: 700 !important;
   margin: 0 !important;
-  color: #d6a284 !important;
+  color: var(--color-secundario) !important;
 }
 
 .catalogo-contenido,
@@ -134,7 +134,7 @@ section#catalogo .catalogo-header h2 {
   /* font-serif */
   font-size: 0.875rem !important;         /* text-sm (14px) */
   font-weight: 500 !important;            /* font-medium */
-  color: #a57b64 !important;              /* text-gold-muted (dorado suave) */
+  color: var(--color-secundario) !important;              /* text-gold-muted (dorado suave) */
   white-space: nowrap !important;
 }
 
@@ -174,7 +174,7 @@ section#catalogo .catalogo-header h2 {
 
 .boton-catalogo {
   display: inline-block;
-  background: var(--color-secundario, #d6a284);
+  background: var(--color-secundario);
   color: #0d1117;
   text-decoration: none;
   font-weight: 700;
