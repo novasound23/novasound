@@ -262,3 +262,7 @@ body[data-svelte-page="catalogo"] #barra-navegacion.navbar {
   z-index: 1000;
   transform: none;
 }
+@media (max-width: 768px) {
+  .navbar-menu { visibility: hidden; pointer-events: none; }
+  .navbar-menu.active { visibility: visible; pointer-events: auto; }
+}

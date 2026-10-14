@@ -369,3 +369,11 @@
   border-color: var(--color-secundario, #d6a284);
   box-shadow: 0 4px 10px rgba(0,0,0,0.12);
 }
+
+#contacto .campo-grupo { min-width: 0; }
+#contacto .campo-grupo input,
+#contacto .campo-grupo textarea { min-width: 0; max-width: 100%; box-sizing: border-box; }
+@media (max-width: 640px) {
+  #contacto .tarjeta-formulario-contacto { padding: 1.25rem; }
+  #contacto .fila-formulario { grid-template-columns: minmax(0, 1fr); }
+}

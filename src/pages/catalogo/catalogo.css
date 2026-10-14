@@ -137,20 +137,14 @@
 @media (max-width: 540px) {
   .seccion-catalogo-externa .catalogo-grid-wrapper { grid-template-columns: minmax(0, 1fr); }
 }
-@media (hover: none) {
-  .seccion-catalogo-externa .card-overlay-hover { height: auto; }
-  .seccion-catalogo-externa .card-img-box {
-    position: relative;
-    height: auto;
-    aspect-ratio: 1;
-  }
+@media (hover: none), (max-width: 768px) {
   .seccion-catalogo-externa .card-capa-hover {
-    position: relative;
     opacity: 1;
-    transform: none;
-    background: var(--fondo-principal);
+    transform: translateY(0);
+    overflow-wrap: anywhere;
   }
-  .seccion-catalogo-externa .card-badge-flotante { display: none; }
+  .seccion-catalogo-externa .card-badge-flotante { opacity: 0; }
+  .seccion-catalogo-externa .card-boton-accion { min-height: 44px; }
 }
 
 .catalogo-miga-pan {
